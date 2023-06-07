@@ -1,0 +1,28 @@
+.Banner {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+    z-index: 20;
+    background-color: transparent;
+}
+
+.bg-image {
+    background-image: url('https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?w=900&t=st=1686106251~exp=1686106851~hmac=f9b4aad08cf70df3ab9171c980154c5adbc079248ebafb99be45320e72355bd7');
+    background-size: cover;
+    background-position: center 28%;
+    min-height: 400px;
+}
+
+.vh-50 {
+    height: 50vh !important;
+}
+
+.overlay {
+    position: absolute;
+    z-index: -20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
